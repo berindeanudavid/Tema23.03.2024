@@ -26,7 +26,7 @@ public class Interval {
             if(countNr>0)
                 writer.append("Intre "+min.nr+" si "+max.nr+" sunt "+(countNrForInterval/countNr)*100+"% dintre testari.\n");
             else    
-                writer.append("Nu a fost testat niciun numar.");
+                writer.append("Nu a fost testat niciun numar.\n");
         }
         catch(IOException e)
         {
